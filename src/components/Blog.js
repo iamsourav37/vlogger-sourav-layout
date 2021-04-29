@@ -41,7 +41,7 @@ function Blog() {
             <Route path="/blogs/mumbai">
               <BlogContent
                 title="Mumbai: City of Ganpati Bappa"
-                desc="Ganpati Bapp Moria"
+                desc="Ganpati Bappa Moria"
               />
             </Route>
             <Route path="/blogs/hyderabaad">
@@ -49,6 +49,12 @@ function Blog() {
                 title="My Hyderabaad Experience"
                 desc="Famous Hyderabaadi Biryani"
               />
+            </Route>
+
+            <Route path="/blogs/demo">
+              <h1 className="text-danger text-center display-5">
+                404 page not found
+              </h1>
             </Route>
             <Route path="/blogs/">
               <BlogContent title="Vlogger Sourav travel experience" />
