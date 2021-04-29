@@ -1,0 +1,23 @@
+.mysidebar {
+  height: auto;
+}
+.mysidebar li {
+  list-style-type: none;
+  text-align: center;
+}
+.mysidebar a {
+  color: #fff;
+  padding: 17px;
+  font-size: 19px;
+  text-decoration: none;
+  display: block;
+}
+.mysidebar a:hover {
+  color: #333;
+}
+
+#leftSidebar {
+  background-color: darkcyan !important;
+  max-height: 100vh !important;
+  overflow-y: auto;
+}
